@@ -1,7 +1,6 @@
 import csv
 
 filename = input("Bitte geben sie die CSV an:\n")
-#filename = "april"
 
 with open(filename+".csv", newline='', errors="ignore") as csvfile:
     reader = csv.reader(csvfile)
